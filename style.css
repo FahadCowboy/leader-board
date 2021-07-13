@@ -135,6 +135,7 @@ body{
 
 #blogs-container{
     margin: 2.17em 0 0 0;
+    
 }
 
 
@@ -172,25 +173,87 @@ body{
     text-decoration: underline;
 }
 
+/***** Cources section Start *****/
+
+#courses-container{
+    background-color: #FFFFFF;
+    padding: 2.18em;
+    margin: 0 0 1.31em 0;
+    background-color: #FFFFFF;
+}
+
+#courses-wrap{
+    display: grid;
+    margin: 2em 0 0 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 1.5em;
+}
+
+.courses{
+    padding: 0.7em;
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px 2px rgb(228 228 228);
+}
+.courses img{
+    width: 14em;
+}
+
+.courses h3{
+    margin: 0.8em 0 0 0;
+}
+
+.courses>a{
+    text-decoration: none;
+    color:#ED6B4F;
+    font-size: 0.91em;
+    font-weight: 400;
+    display: block;
+    margin: 0.5em 0 0 0;
+}
+
+.retting-duration-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 0 0 0;
+}
+
+.colored-star{
+    color: #FFC014;
+}
 
 
+.retting .fa-star{
+    font-size: 0.79em;
+    color: #AEAEAE;
+}
 
 
+.retting span{
+    font-size: 0.9em;
+    color: #A2A2A2;
+    font-weight: 400;
+    margin: 0 0 0 0.5em;
+}
 
+.duration{
+    display: flex;
+    align-items: center;
+    background-color: #FEE5DF;
+    padding: 0.2em 0.4em;
+    border-radius: 1em;
+}
 
+.duration i{
+    color: #ED6B4F;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.duration span{
+    color: #ED6B4F;
+    font-weight: 400;
+    font-size: 0.9em;
+    margin: 0 0 0 0.31em;
+}
 
 
 
